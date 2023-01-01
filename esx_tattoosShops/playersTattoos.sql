@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `playersTattoos` (
   `id` int(11) NOT NULL,
   `identifier` varchar(255) NOT NULL,
-  `tattoos` varchar(255) NOT NULL
+  `tattoos` json NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
